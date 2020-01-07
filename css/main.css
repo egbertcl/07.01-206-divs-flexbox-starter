@@ -106,8 +106,15 @@ body {
   padding: 2em;
   font-size: 1.25em;
   height: 100%;
+  background: lightgray;
+  overflow: auto;
 }
-
+h1 {
+    font-size: 3em;
+}
+#top-intro p {
+    font-size: 2em;
+}
 .wrapper {
   /*add display:flex and set justify-content to space-between*/
   display: flex;
@@ -117,19 +124,22 @@ body {
 
 .div-1, .div-2, .div-3 {
   /*give the divs a width of 30%, add display:flex, set justify-content and align-items to center*/
-  color: #fff;
+  color: darkgrey;
+  font-weight: 700;
   line-height: 1.5em;
-  font-size: 1.6em;
-  background-color: #f16059;
-  height: 300px;
+  font-size: 1.3em;
+  background-color: lightpink;
+  height: 500px;
   width: 30%;
+  padding: 0 1em;
   display: flex;
   justify-content: center;
   align-items: center;
 }
-
-
-
+.div-2 {
+    border-right: 1px grey dashed;
+    border-left: 1px grey dashed;
+}
 
 /* ==========================================================================
    Helper classes
